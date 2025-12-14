@@ -8,7 +8,7 @@
 PlayZap is a simple and interactive web-based gaming project designed to provide quick entertainment through mini-games. This project is built using HTML, CSS, and JavaScript, focusing on clean UI, smooth interactions, and beginner-friendly code structure.
 
 This project helped me strengthen my fundamentals of frontend web development and JavaScript logic building.
-
+<hr>
 🚀 Features
 
 🎯 Interactive and fun gameplay
@@ -22,7 +22,7 @@ This project helped me strengthen my fundamentals of frontend web development an
 📱 Works on desktop and mobile browsers
 
 🛠️ Tech Stack
-
+<hr>
 HTML5 – Structure
 
 CSS3 – Styling & layout
