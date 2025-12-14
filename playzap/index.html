@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayZap - Instant Fun, No Downloads</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">▶</span>
+            <span class="logo-text">PlayZap</span>
+        </div>
+        <nav class="nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle">☰</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>PlayZap</h1>
+            <p>Instant fun. No downloads. Play free browser games right now.</p>
+            <a href="#games" class="btn-primary">Start Playing</a>
+        </div>
+    </section>
+
+    <!-- Search + Categories -->
+    <section class="search-section">
+        <input type="text" id="searchInput" placeholder="Search games..." />
+        <div class="categories">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="action">Action</button>
+            <button class="category-btn" data-category="racing">Racing</button>
+            <button class="category-btn" data-category="puzzle">Puzzle</button>
+            <button class="category-btn" data-category="two-player">Two Player</button>
+        </div>
+    </section>
+
+    <!-- Games Grid -->
+    <section class="games-section" id="games">
+        <h2>Featured Games</h2>
+        <div class="games-grid" id="gamesGrid">
+
+            <!-- Game Card 1 -->
+            <article class="game-card" data-title="Speed Racer" data-category="racing">
+                <div class="game-thumb">SR</div>
+                <h3>Speed Racer</h3>
+                <p>Race through traffic and beat the clock.</p>
+                <a href="play.html" class="btn-secondary play-btn" data-game="speed-racer">Play Now</a>
+            </article>
+
+            <!-- Game Card 2 -->
+            <article class="game-card" data-title="Space Shooter" data-category="action">
+                <div class="game-thumb">SS</div>
+                <h3>Space Shooter</h3>
+                <p>Defend the galaxy from incoming enemies.</p>
+                <a href="play.html" class="btn-secondary play-btn" data-game="space-shooter">Play Now</a>
+            </article>
+
+            <!-- Game Card 3 -->
+            <article class="game-card" data-title="Brain Blocks" data-category="puzzle">
+                <div class="game-thumb">BB</div>
+                <h3>Brain Blocks</h3>
+                <p>Arrange blocks and solve tricky puzzles.</p>
+                <a href="play.html" class="btn-secondary play-btn" data-game="brain-blocks">Play Now</a>
+            </article>
+
+            <!-- Game Card 4 -->
+            <article class="game-card" data-title="Duo Battle" data-category="two-player">
+                <div class="game-thumb">DB</div>
+                <h3>Duo Battle</h3>
+                <p>Challenge your friend in this two-player game.</p>
+                <a href="play.html" class="btn-secondary play-btn" data-game="duo-battle">Play Now</a>
+            </article>
+
+            <!-- You can copy-paste more cards like these -->
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© <span id="year"></span> PlayZap. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Game - PlayZap</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">▶</span>
+            <span class="logo-text">PlayZap</span>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle">☰</button>
+    </header>
+
+    <!-- Game Container -->
+    <main class="play-main">
+        <section class="game-container">
+            <h1>Sample Game</h1>
+            <p class="game-subtitle">Replace this with your real game or HTML5 project.</p>
+
+            <!-- Game iframe (local sample) -->
+            <div class="game-frame-wrapper">
+                <iframe src="games/sample-game/index.html" title="Sample Game"></iframe>
+            </div>
+
+            <div class="game-info">
+                <h2>How to Play</h2>
+                <ul>
+                    <li>Use arrow keys or WASD to move (example).</li>
+                    <li>Avoid obstacles and collect points.</li>
+                    <li>Press F11 for full screen in browser.</li>
+                </ul>
+
+                <h2>Game Description</h2>
+                <p>
+                    This is a placeholder for your real game. You can replace the iframe
+                    source with any HTML5 game you add inside the <code>games/</code> folder.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© <span id="year"></span> PlayZap. All rights reserved.</p>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

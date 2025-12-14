@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - PlayZap</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">▶</span>
+            <span class="logo-text">PlayZap</span>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="privacy.html">Privacy</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle">☰</button>
+    </header>
+
+    <main class="page-main">
+        <section class="page-section">
+            <h1>Contact Us</h1>
+            <p>If you have any questions or suggestions, you can fill this simple form.</p>
+
+            <form class="contact-form" id="contactForm">
+                <label>
+                    Name
+                    <input type="text" id="name" required>
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" id="email" required>
+                </label>
+
+                <label>
+                    Message
+                    <textarea id="message" rows="4" required></textarea>
+                </label>
+
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+
+            <p class="form-note">
+                Note: This is a demo form. In a real website, this would send data to a server.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> PlayZap. All rights reserved.</p>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
